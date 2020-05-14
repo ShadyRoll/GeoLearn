@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GeoLearn.Pages.MainMasterDetailPageMaster"
+             Title="Master">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}">
+            <d:ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Minerals</x:String>
+                </x:Array>
+            </d:ListView.ItemsSource>
+            <ListView.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand">
+                            <Label VerticalOptions="FillAndExpand" 
+                    VerticalTextAlignment="Center" 
+                    Text="{Binding Title}" 
+                    d:Text="{Binding .}"
+                    FontSize="24"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

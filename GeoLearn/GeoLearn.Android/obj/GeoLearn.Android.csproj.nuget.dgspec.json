@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn.Android\\GeoLearn.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn.Android\\GeoLearn.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn.Android\\GeoLearn.Android.csproj",
+        "projectName": "GeoLearn.Android",
+        "projectPath": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn.Android\\GeoLearn.Android.csproj",
+        "packagesPath": "C:\\Users\\Shado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid10.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid10.0": {
+            "projectReferences": {
+              "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn\\GeoLearn.csproj": {
+                "projectPath": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn\\GeoLearn.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid10.0": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn\\GeoLearn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn\\GeoLearn.csproj",
+        "projectName": "GeoLearn",
+        "projectPath": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn\\GeoLearn.csproj",
+        "packagesPath": "C:\\Users\\Shado\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shado\\Desktop\\GeoLearn\\GeoLearn\\GeoLearn\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Shado\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.726, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
